@@ -1,0 +1,18 @@
+{
+  "name": "lp_template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "yarn run parcel src/index.pug --port 3000",
+    "build": "yarn run parcel build src/index.pug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "@parcel/transformer-pug": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/validator-typescript": "^2.8.3"
+  }
+}
