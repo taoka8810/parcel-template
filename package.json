@@ -1,5 +1,5 @@
 {
-  "name": "$PROJECT_NAME",
+  "name": "$PROJECT_NAME¥",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -14,5 +14,9 @@
     "@parcel/transformer-pug": "^2.8.3",
     "@parcel/transformer-sass": "^2.8.3",
     "@parcel/validator-typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@prettier/plugin-pug": "^2.5.0",
+    "prettier": "^2.8.8"
   }
 }
