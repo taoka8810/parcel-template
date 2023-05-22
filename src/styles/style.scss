@@ -1,2 +1,7 @@
+// global
+@use "./global/mixin.scss";
+@use "./global/reset.scss";
+
+// components
 @use "./components/header.scss";
 @use "./components/footer.scss";
