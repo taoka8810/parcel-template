@@ -1,15 +1,9 @@
-doctype html
-html(lang="ja")
-  head
-    meta(charset="UTF-8")
-    meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    link(rel="stylesheet", href="./styles/style.scss")
-    title $PROJECT_NAME
-  body 
-    include ./components/header
-    main 
-      h1 LPテンプレート
-      a(href="./sample.pug") ページ遷移
-    include ./components/footer
-    script(type="module" src="./scripts/index.ts")
+extends ./components/layout.pug
+
+block head 
+  title $PROJECT_NAME
+
+block body
+  main 
+    h1 $PROJECT_NAME（LPテンプレートを使用）
+    a(href="./sample.pug") サンプルページへ遷移
