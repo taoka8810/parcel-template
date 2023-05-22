@@ -1,10 +1,11 @@
 {
-  "name": "$PROJECT_NAME¥",
+  "name": "project_name",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "start": "yarn run parcel src/*.pug --port 3000",
-    "build": "yarn run parcel build src/*.pug"
+    "build": "yarn run parcel build src/*.pug",
+    "format": "yarn prettier --write ./src/*.pug ./src/styles/** ./src/scripts/** ./src/components/**"
   },
   "keywords": [],
   "author": "",
