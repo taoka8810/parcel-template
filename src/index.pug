@@ -5,5 +5,7 @@ block head
 
 block body
   main
-    h1 $PROJECT_NAME（LPテンプレートを使用）
-    a(href="./sample.pug") サンプルページへ遷移
+    include ./sections/introduction.pug
+    include ./sections/environment.pug
+    include ./sections/conversion.pug
+    include ./sections/notes.pug

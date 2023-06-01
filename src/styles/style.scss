@@ -4,4 +4,11 @@
 
 // components
 @use "./components/header.scss";
+@use "./components/container.scss";
 @use "./components/footer.scss";
+
+// sections
+@use "./sections/conversion.scss";
+@use "./sections/environment.scss";
+@use "./sections/introduction.scss";
+@use "./sections/notes.scss";
