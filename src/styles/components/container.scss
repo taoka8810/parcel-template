@@ -1,5 +1,11 @@
+@use "../global/mixin.scss" as *;
+
 .l-container {
-  max-width: 1440px;
+  // max-width: 1440px;
   width: calc((1008 / 1440) * 100%);
   margin: 0 auto;
+  @include md {
+    width: calc(335 / 375 * 100%);
+    margin: 0 auto;
+  }
 }
