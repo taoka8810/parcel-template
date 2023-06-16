@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "defaults"
+  ],
   "dependencies": {
     "parcel": "^2.8.3",
     "@parcel/transformer-pug": "^2.8.3",
